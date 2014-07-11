@@ -120,7 +120,7 @@ or download the css on github and include in your project.
 .invert-99 { filter: invert(99%); }
 .invert-100 { filter: invert(100%); }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .invert-1-ns { filter: invert(1%); }
   .invert-2-ns { filter: invert(2%); }
   .invert-3-ns { filter: invert(3%); }
@@ -223,7 +223,7 @@ or download the css on github and include in your project.
   .invert-100-ns { filter: invert(100%); }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .invert-1-m { filter: invert(1%); }
   .invert-2-m { filter: invert(2%); }
   .invert-3-m { filter: invert(3%); }
@@ -326,7 +326,7 @@ or download the css on github and include in your project.
   .invert-100-m { filter: invert(100%); }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .invert-1-l { filter: invert(1%); }
   .invert-2-l { filter: invert(2%); }
   .invert-3-l { filter: invert(3%); }
