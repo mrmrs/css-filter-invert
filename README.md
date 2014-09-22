@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-filter-invert)
 ## File Size
 
 15K filter-invert.css
-12K filter-invert.min.css
+12K filter-invert.min.css 
+1minified and gzipped
 
 ## The Code
 ```
