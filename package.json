@@ -1,5 +1,6 @@
 {
   "name": "css-filter-invert",
+  "style": "filter-invert.css",
   "version": "0.0.5",
   "homepage": "http://github.com/mrmrs/css-filter-invert",
   "description": "Css module of single purpose classes for filter invert",
