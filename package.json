@@ -1,38 +1,44 @@
 {
   "name": "css-filter-invert",
-  "style": "filter-invert.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-filter-invert",
-  "description": "Css module of single purpose classes for filter invert",
+  "version": "2.0.0",
+  "description": "Functional CSS for filter-invert",
+  "style": "dist/filter-invert.css",
+  "main": "dist/filter-invert.css",
+  "exports": {
+    ".": "./dist/filter-invert.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "filter-invert"
+    "filter-invert",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-filter-invert": {
+  "homepage": "https://github.com/mrmrs/css-filter-invert",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-filter-invert.git"
+    "url": "https://github.com/mrmrs/css-filter-invert.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-filter-invert/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-filter-invert/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
