@@ -103,7 +103,7 @@
 .invert-99 { filter: invert(99%); }
 .invert-100 { filter: invert(100%); }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .invert-1-s { filter: invert(1%); }
   .invert-2-s { filter: invert(2%); }
   .invert-3-s { filter: invert(3%); }
@@ -206,7 +206,7 @@
   .invert-100-s { filter: invert(100%); }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .invert-1-m { filter: invert(1%); }
   .invert-2-m { filter: invert(2%); }
   .invert-3-m { filter: invert(3%); }
@@ -309,7 +309,7 @@
   .invert-100-m { filter: invert(100%); }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .invert-1-l { filter: invert(1%); }
   .invert-2-l { filter: invert(2%); }
   .invert-3-l { filter: invert(3%); }
